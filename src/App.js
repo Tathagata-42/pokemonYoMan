@@ -30,6 +30,8 @@ function App() {
           defense: response.data.stats[2].base_stat,
           type: response.data.types[0].type.name,
         })
+
+        //For testing
         console.log(response.data.types[0].type.name);
         setPokemonChose(true)
         console.log(response)
